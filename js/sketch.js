@@ -27,7 +27,7 @@ function setup(){
 
   // The heaviest scenes are skipped on phones and tablets.
   if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-    pixelDensity(1);
+    pixelDensity(2);
     scenes = scenes.filter(s => ![Bend, BugEyes, SlotMachine].includes(s));
   }
 
